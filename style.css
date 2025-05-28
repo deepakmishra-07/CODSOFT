@@ -1,0 +1,156 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  line-height: 1.6;
+  padding-bottom: 60px; /* Prevent footer overlap */
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0aae69;
+  color: white;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.name-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-title h1 {
+  font-size: 22px;
+  margin-bottom: 2px;
+  color: #ffffff; /* Ensure white heading */
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #ffffff; /* Ensure white subtitle */
+}
+
+.social-icons a {
+  color: white;
+  margin-left: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #1da1f2;
+}
+
+/* Main container */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0aae69;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px solid #0aae69;
+  padding-bottom: 5px;
+}
+
+p,
+li {
+  font-size: 16px;
+  color: #333;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Project section with image and content side by side */
+.project {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.project-content {
+  flex: 1;
+}
+
+/* Footer */
+footer {
+  background-color: #030303;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0aae69;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.download-btn:hover {
+  background-color: #088855;
+}
+
+
+footer p {
+  color: #ffffff; /* Ensure footer text is white */
+}
